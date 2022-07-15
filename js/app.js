@@ -8,7 +8,7 @@ if (vgAnswer === "yes" || vgAnswer === "y") {
 else {
   alert("You do not have a common name like me!");
 }  // end of if statement
-let sleep = prompt("Does Sophia love sleep?");
+let sleep = prompt("Does Sophia love sleep? (yes/no)(y/n)");
 let sleepAnswer = sleep.toLowerCase();
 if (sleepAnswer === "yes" || sleepAnswer === "y") {
     alert("Sophia loves sleep!");
@@ -23,14 +23,21 @@ let hobbiesArrayLengthString = hobbiesArrayLength.toString();
 alert("You have " + hobbiesArrayLengthString + " hobbies!");
 
 if ( vg !== "yes" && vg !== "y") {
-  alert("You are not a videogame fan!");
-  //console.log("You are not a videogame fan!");
-  window.alert("You are not a videogame fan!");
+  alert("Thank you for coming to my TED talk!");
+  //console.log("Thank you for coming to my TED talk!");
+  window.alert("C's get you degrees like my ME degree!")
+if (vg === "no" || vg === "n") {
+  alert("Thank you for coming to my TED talk!");
+  //console.log("Thank you for coming to my TED talk!");
+  window.alert("C's get you degrees like my ME degree!")
+} // end of if statement
+
 } // end of if statement
 
 if (vgAnswer === "yes" || vgAnswer === "y") {
   displayUserName();
-} // end of if statement
+}
+else {displayUserName();}
 
 questionaire();
 
