@@ -1,0 +1,63 @@
+h1 {
+    font-size: 4vw;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+h2 {
+    font-size: 2vw;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}   /* Language: css */
+
+    selection {
+        background: #f5f5f5;
+        color: #000;
+        margin-left: 80px;
+        border-style: solid;
+    }
+    /* Language: css */
+    ol {
+        list-style-type: lower-alpha;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: blue;
+    }
+    /* Language: css */
+    ul {
+        list-style-type: lower-alpha;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: blue;
+        padding-left: 20%;
+    }
+
+    li
+    {
+        margin-top: 14px;
+        margin-bottom: 14px;
+        margin-right:auto;
+        margin-left:auto;
+        padding-bottom: 20%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: blue;
+    }
