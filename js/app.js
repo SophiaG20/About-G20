@@ -11,10 +11,10 @@ else {
 let sleep = prompt("Does " + userName + " Like Sleep? (yes/no)(y/n)");
 let sleepAnswer = vg.toLowerCase();
 if (sleepAnswer === "yes" || vgAnswer === "y") {
-  alert("You loves Sleep! Just like Sophia G20");
+  alert("userName loves Sleep! Just like Sophia G20");
 }
 else {
-  alert("You do not love Sleep! Unlike Sophia G20");
+  alert("userName does not love Sleep! Unlike Sophia G20");
 }  // end of if statement
 
 if ( vg !== "yes" && vg !== "y") {
