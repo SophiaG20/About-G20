@@ -1,8 +1,25 @@
 # About-G20
-About G20 utilizing Sassiness and HTML, CSS, JavaScript
-## This prooject uses HTML, JS, and CSS to make a "About G20" page which has some JavaScript prompts
 
-> let it be known I think prompts are the devil of the internet
+About G20 utilizing Sassiness and HTML, CSS, JavaScript
+
+## This project uses HTML, JS, and CSS to make an "About G20" page which has some JavaScript prompts
+
+## This About-me project is about myself- scope:
+
+### I am creating an About me
+
+> to include Quizzes about me and fun facts so that users can understand basic info about me, who I am, and where I came from.
+
+As a ____, I want____, so that ____.
+
+## I will guide users through a series of feedback responses
+
+
+1. step is to create a Top Ten bottom HTML ordered list.
+
+-I am not sure
+
+Then I will convert my work experience and educational summary into an unordered list using HTML.
 
 # License
 © 2022 Sophia G20
