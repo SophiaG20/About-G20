@@ -1,6 +1,7 @@
 # About-G20
 
 About G20 utilizing Sassiness and HTML, CSS, JavaScript
+## This project uses HTML, JS, and CSS to make a "About G20" page which has some JavaScript prompts
 
 ## This project uses HTML, JS, and CSS to make an "About G20" page which has some JavaScript prompts
 
