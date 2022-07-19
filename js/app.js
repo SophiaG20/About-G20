@@ -1,7 +1,7 @@
 "use strict";
 let userName = prompt("What do you want to call yourself?");
 
-let welcome = prompt("Welcome to SophiaG20's page " + userName); 
+let welcome = prompt("Welcome to SophiaG20's page I love you " + userName); 
 
 let vg = prompt("Does " + userName + " Have a common name? (yes/no)(y/n)");
 let vgAnswer = vg.toLowerCase();
@@ -21,9 +21,11 @@ if (sleepAnswer === "no" || sleepAnswer === "n") {
 }
 else {
   alert("You do not like sleep! You are not like Sophia G20");
-}  
-// end of if statement
+} 
+// end of if statement  
+displayUserName();
 
 function displayUserName() {
-  alert("Bye " + userName + "!");
+  alert("Bye  " + userName + " Sophia G20 loves you!");
+
 } // end of displayUserName function
