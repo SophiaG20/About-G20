@@ -3,6 +3,8 @@
 let score = 0;
 
 let userName = prompt("What is your name?");
+// starting function userMessage
+function userMessage() { 
 let welcome = prompt("Welcome to SophiaG20's page I love you " + userName); 
 
 let vg = prompt("Does " + userName + " Have a common name? (yes/no)(y/n)");
@@ -12,55 +14,71 @@ if (vgAnswer === "yes" || vgAnswer === "y") {
 }
 else {
   alert("You do not have a common name like me!");
-}  // end of if statement
+}  
+}
+userMessage();
+// end of function userMessage
+
+// starting function userSleep
+function userSleep() {
 let sleep = prompt("Does " + userName + " Like Sleep? (yes/no)(y/n)");
 let sleepAnswer = sleep.toLowerCase();
 if (sleepAnswer === "yes" || sleepAnswer === "y") {
   alert( "You love Sleep! Just like Sophia G20");
 }
-if (sleepAnswer === "no" || sleepAnswer === "n") {
+else if (sleepAnswer === "no" || sleepAnswer === "n") {
   alert("You do not like Sleep! unlike like Sophia G20");
 }
 else {
   alert("You do not like sleep! You are not like Sophia G20");
-} 
-// end of if statement  
-
-let answer1 = prompt("What is my favorite color? (red/blue/green)(r/b/g)");
-console.log(answer1);
-
-answer1 = answer1.toLowerCase();
-console.log(answer1);
-if (answer1 === "green" || answer1 === "g") {
-  alert("You are correct! I love green!");
-  score++;
+}  
 }
-else {
-  alert("You are incorrect! I love green!");
+userSleep();
+// end of function userSleep
 
-let answer2 = prompt("What is my favorite food? (pork fried rice/burger/sushi)(pkfr/b/s)");
-console.log(answer2);
-
-  answer2 = answer2.toLowerCase();
-  console.log(answer2);
-
-  if (answer2 === "pork fried rice" || answer2 === "pkfr") {
-    alert("You are correct! I love pork fried rice!");
-    score++;
+function questionPrompt1(message, correct1, correct2) {
+  let answer = prompt(message).toLowerCase();
+  if (answer === correct1 || answer === correct2) {
+    alert("I love you either way and you're right.");
+    return;
   }
-  else {
-    alert("You are incorrect! I love pork fried rice!");
-  }
+  alert("Not quiet. I still love you.");
+}
 
- displayUserName();
- console.log(userName);
-}
-function displayUserName() {
-  alert("Bye  " + userName + " Sophia G20 loves you!");
-}
+questionPrompt1("What is my favorite color?", "g", "green");
+questionPrompt1("What is my favorite food?", "pkfr", "pork fried rice");
+
+// commented out because above function was made
+// let answer1 = prompt("What is my favorite color? (red/blue/green)(r/b/g)");
+// console.log(answer1);
+
+// answer1 = answer1.toLowerCase();
+// console.log(answer1);
+// if (answer1 === "green" || answer1 === "g") {
+//   alert("You are correct! I love green!");
+//   score++;
+// }
+// else {
+//   alert("You are incorrect! I love green!");
+
+// let answer2 = prompt("What is my favorite food? (pork fried rice/burger/sushi)(pkfr/b/s)");
+// console.log(answer2);
+
+//   answer2 = answer2.toLowerCase();
+//   console.log(answer2);
+
+//   if (answer2 === "pork fried rice" || answer2 === "pkfr") {
+//     alert("You are correct! I love pork fried rice!");
+//     score++;
+//   }
+//   else {
+//     alert("You are incorrect! I love pork fried rice!");
+//   }
+
+
 // guessing game for SophiaG20 about-me page
 
-
+function guessingGame() {
 for (let i=0; i<4; i++) {
   let ans6 = prompt("Guess a number between 0-10");
   if(i>=3){
@@ -78,6 +96,9 @@ for (let i=0; i<4; i++) {
     alert('that is not a valid answer. try again!');
   }
 }
+}
+guessingGame();
+// end of guessing game function almost there 
 
 function question7(){
   let genes = ['mexican', 'indian', 'chinese', 'japanese'];
@@ -101,3 +122,10 @@ function question7(){
 question7();
 
 alert('you answered ' + score + ' questions correctly!');
+
+displayUserName();
+console.log(userName);
+
+function displayUserName() {
+ alert("Bye  " + userName + " Sophia G20 loves you!");
+}
