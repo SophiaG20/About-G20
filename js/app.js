@@ -45,10 +45,7 @@ function questionPrompt1(message, correct1, correct2) {
 function guessingGame() {
 for (let i=0; i<4; i++) {
   let ans6 = prompt("Guess a number between 0-10");
-  if(i>=3){
-    alert("sorry, you ran out of chances.");
-    break;
-  }else if(ans6==="8"){
+  if(ans6==="8"){
     score++;
     alert("correct!");
     break;
@@ -58,6 +55,10 @@ for (let i=0; i<4; i++) {
     alert("too low. try again!");
   }else{
     alert('that is not a valid answer. try again!');
+  } 
+   if(i>=3){
+    alert("sorry, you ran out of chances.");
+    break;
   }
 }
 }
