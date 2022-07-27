@@ -1,11 +1,12 @@
 # About-G20
 
 About G20 utilizing Sassiness and HTML, CSS, JavaScript
+
 ## This project uses HTML, JS, and CSS to make a "About G20" page which has some JavaScript prompts
 
 ## This project uses HTML, JS, and CSS to make an "About G20" page which has some JavaScript prompts
 
-## This About-me project is about myself- scope:
+## This About-me project is about myself- scope
 
 ### I am creating an About me
 
@@ -15,14 +16,14 @@ As a ____, I want____, so that ____.
 
 ## I will guide users through a series of feedback responses
 
-
 1. step is to create a Top Ten bottom HTML ordered list.
 
 -I am not sure
 
 Then I will convert my work experience and educational summary into an unordered list using HTML.
 
-# License
+## License
+
 © 2022 Sophia G20
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

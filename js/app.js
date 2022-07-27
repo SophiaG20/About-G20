@@ -3,7 +3,7 @@
 let score = 0;
 
 let userName = prompt("What is your name?");
-// starting function userMessage
+
 function userMessage() { 
 let welcome = prompt("Welcome to SophiaG20's page I love you " + userName); 
 
@@ -17,9 +17,7 @@ else {
 }  
 }
 userMessage();
-// end of function userMessage
 
-// starting function userSleep
 function userSleep() {
 let sleep = prompt("Does " + userName + " Like Sleep? (yes/no)(y/n)");
 let sleepAnswer = sleep.toLowerCase();
@@ -34,7 +32,6 @@ else {
 }  
 }
 userSleep();
-// end of function userSleep
 
 function questionPrompt1(message, correct1, correct2) {
   let answer = prompt(message).toLowerCase();
@@ -44,39 +41,6 @@ function questionPrompt1(message, correct1, correct2) {
   }
   alert("Not quiet. I still love you.");
 }
-
-questionPrompt1("What is my favorite color?", "g", "green");
-questionPrompt1("What is my favorite food?", "pkfr", "pork fried rice");
-
-// commented out because above function was made
-// let answer1 = prompt("What is my favorite color? (red/blue/green)(r/b/g)");
-// console.log(answer1);
-
-// answer1 = answer1.toLowerCase();
-// console.log(answer1);
-// if (answer1 === "green" || answer1 === "g") {
-//   alert("You are correct! I love green!");
-//   score++;
-// }
-// else {
-//   alert("You are incorrect! I love green!");
-
-// let answer2 = prompt("What is my favorite food? (pork fried rice/burger/sushi)(pkfr/b/s)");
-// console.log(answer2);
-
-//   answer2 = answer2.toLowerCase();
-//   console.log(answer2);
-
-//   if (answer2 === "pork fried rice" || answer2 === "pkfr") {
-//     alert("You are correct! I love pork fried rice!");
-//     score++;
-//   }
-//   else {
-//     alert("You are incorrect! I love pork fried rice!");
-//   }
-
-
-// guessing game for SophiaG20 about-me page
 
 function guessingGame() {
 for (let i=0; i<4; i++) {
@@ -98,7 +62,6 @@ for (let i=0; i<4; i++) {
 }
 }
 guessingGame();
-// end of guessing game function almost there 
 
 function question7(){
   let genes = ['mexican', 'indian', 'chinese', 'japanese'];
